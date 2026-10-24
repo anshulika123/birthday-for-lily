@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Lily!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+
+  <div class="container">
+    <h1 class="title">Happy Birthday,<br>Lily! 🎂</h1>
+
+    <div class="slideshow">
+      <img id="slide" src="" alt="Birthday photo" />
+    </div>
+
+    <div class="controls">
+      <button id="mute-btn" onclick="toggleMusic()">▶ Play Music</button>
+    </div>
+
+    <div class="message-card">
+      <p>Happy birthday to the one who knows me best, loves me most, and holds my whole world together. You are not just my best friend; you are my love, my comfort, and my jaan. Thank you for being my safe haven and my constant joy. I pray this year brings you endless reasons to smile, beautiful moments, and all the success you deserve. I love you beyond words, today and forever. Have the most beautiful day, my love!💕</p>
+    </div>
+
+    <a class="download-btn" href="video.mp4" download="Happy_Birthday_Lily.mp4">
+      ⬇️ Download Birthday Video
+    </a>
+  </div>
+
+  <audio id="bg-music" loop>
+    <source src="music.mp3" type="audio/mpeg" />
+  </audio>
+
+  <script>
+    const photos = ["48ecc14a-a518-48df-b2b9-b410cb8b1b22.JPG", "IMG-20240330-WA0205.JPG", "PHOTO-2026-10-24-17-44-13.jpg", "PHOTO-2026-10-24-17-44-34.jpg", "PHOTO-2026-10-24-17-51-17.jpg", "PHOTO-2026-10-24-17-51-18.jpg", "PHOTO-2026-10-24-17-51-20.jpg", "PHOTO-2026-10-24-17-57-03.jpg", "PHOTO-2026-10-24-17-57-05.jpg", "PHOTO-2026-10-24-17-57-08.jpg"];
+  </script>
+  <script src="script.js"></script>
+</body>
+</html>
